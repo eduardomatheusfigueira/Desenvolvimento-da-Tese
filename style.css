@@ -1,0 +1,191 @@
+/* Reset básico e fonte global */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f7f7f7; /* Fundo cinza claro */
+  color: #37352f; /* Cor de texto padrão */
+  display: flex; /* Usa flexbox para layout */
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh; /* Garante que o container ocupe a altura toda */
+}
+
+/* Barra Lateral */
+#sidebar {
+  width: 250px; /* Largura fixa da barra lateral */
+  background-color: #fcfcfc; /* Fundo ligeiramente diferente */
+  border-right: 1px solid #eee; /* Linha divisória sutil */
+  padding: 20px;
+  box-sizing: border-box; /* Inclui padding na largura */
+  height: 100vh; /* Ocupa toda a altura */
+  overflow-y: auto; /* Permite rolagem se a lista for grande */
+}
+
+#sidebar h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.1em;
+  color: #37352f;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#sidebar li {
+  margin-bottom: 8px;
+}
+
+#sidebar a {
+  text-decoration: none;
+  color: #37352f;
+  display: block;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.95em;
+  cursor: pointer;
+}
+
+#sidebar a:hover,
+#sidebar a.active { /* Estilo para item ativo */
+  background-color: #eee; /* Fundo ao passar o mouse ou ativo */
+}
+
+/* Conteúdo Principal */
+#main-content {
+  flex-grow: 1; /* Ocupa o espaço restante */
+  padding: 40px 60px; /* Espaçamento interno */
+  overflow-y: auto; /* Permite rolagem do conteúdo principal */
+  height: 100vh; /* Ocupa toda a altura */
+  box-sizing: border-box;
+}
+
+/* Título principal da página (dentro do main-content) */
+#content-title {
+  text-align: left; /* Alinha à esquerda */
+  margin-top: 0; /* Remove margem superior */
+  margin-bottom: 30px;
+  color: #37352f;
+  font-weight: 600;
+  font-size: 2em; /* Tamanho maior para o título do conteúdo */
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+}
+
+/* Container do Markdown */
+#markdown-content {
+  max-width: 800px; /* Largura máxima do conteúdo */
+  /* Remove margens e fundo branco, pois agora está dentro de #main-content */
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* Estilos para cabeçalhos dentro do Markdown */
+#markdown-content h1,
+#markdown-content h2,
+#markdown-content h3,
+#markdown-content h4,
+#markdown-content h5,
+#markdown-content h6 {
+  margin-top: 1.8em;
+  margin-bottom: 0.8em;
+  font-weight: 600;
+  color: #37352f;
+  line-height: 1.3;
+}
+
+#markdown-content h1 { font-size: 1.8em; border-bottom: 1px solid #eee; padding-bottom: 0.3em; }
+#markdown-content h2 { font-size: 1.5em; border-bottom: 1px solid #eee; padding-bottom: 0.3em; }
+#markdown-content h3 { font-size: 1.3em; }
+#markdown-content h4 { font-size: 1.1em; }
+
+/* Parágrafos */
+#markdown-content p {
+  margin-bottom: 1em;
+}
+
+/* Listas */
+#markdown-content ul,
+#markdown-content ol {
+  padding-left: 1.5em;
+  margin-bottom: 1em;
+}
+
+#markdown-content li {
+  margin-bottom: 0.6em;
+}
+
+/* Estilo para checkboxes de lista de tarefas */
+#markdown-content li input[type="checkbox"] {
+  margin-right: 0.6em;
+  vertical-align: -2px;
+  width: 16px;
+  height: 16px;
+  cursor: not-allowed;
+}
+
+/* Código inline */
+#markdown-content code {
+  background-color: rgba(135, 131, 120, 0.15);
+  color: #eb5757;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 0.9em;
+}
+
+/* Blocos de código */
+#markdown-content pre {
+  background-color: #f3f3f3;
+  padding: 1em;
+  border-radius: 5px;
+  overflow-x: auto;
+  margin-bottom: 1em;
+}
+
+#markdown-content pre code {
+  background-color: transparent;
+  color: inherit;
+  padding: 0;
+  font-size: 0.9em;
+}
+
+/* Negrito */
+#markdown-content strong,
+#markdown-content b {
+  font-weight: 600;
+}
+
+/* Itálico */
+#markdown-content em,
+#markdown-content i {
+  font-style: italic;
+}
+
+/* Citações */
+#markdown-content blockquote {
+  border-left: 3px solid #ccc;
+  padding-left: 1em;
+  margin-left: 0;
+  color: #666;
+  font-style: italic;
+}
+
+/* Links */
+#markdown-content a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#markdown-content a:hover {
+  text-decoration: underline;
+}
