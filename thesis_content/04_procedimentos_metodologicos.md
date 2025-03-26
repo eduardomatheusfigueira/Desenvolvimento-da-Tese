@@ -1,36 +1,136 @@
-# 3 PROCEDIMENTOS METODOLÓGICOS
+# 3. Procedimentos Metodológicos
 
-Esta tese adota uma abordagem metodológica fundamentada em princípios e técnicas consolidadas na literatura científica, conforme o que apresentam Marconi e Lakatos (2003). A estrutura metodológica é delineada para responder às perguntas de pesquisa e alcançar os objetivos propostos, utilizando uma combinação de métodos e técnicas que se complementam e permitem uma análise aprofundada da relação entre SA e DRSAI entre 2008 e 2022.
+Esta seção detalha os procedimentos metodológicos adotados para investigar a relação entre saneamento básico (SA), doenças relacionadas ao saneamento ambiental inadequado (DRSAI) e fatores contextuais nos municípios do Paraná.
 
-## 3.1 ABORDAGEM HIPOTÉTICO-DEDUTIVA
+## 3.1. Desenho da Pesquisa
 
-A pesquisa segue a abordagem hipotético-dedutiva, que, segundo Marconi e Lakatos (2003, p. 106), “se inicia pela percepção de uma lacuna nos conhecimentos, acerca da qual formula hipóteses e, pelo processo de inferência dedutiva, testa a predição da ocorrência de fenômenos abrangidos pela hipótese”. Parte-se, portanto, de teorias e conhecimentos preexistentes sobre as relações entre SA e DRSAI, bem como sobre a influência de fatores contextuais, para formular hipóteses específicas sobre o contexto paranaense.
-Essas hipóteses, detalhadas na seção 1.3, são então testadas empiricamente por meio da análise de dados observacionais, utilizando métodos estatísticos e técnicas de inferência causal. Os resultados obtidos são confrontados com as hipóteses iniciais, permitindo confirmar, refutar ou refinar as teorias existentes, contribuindo para o avanço do conhecimento na área.
+*   **Tipo de Estudo:** Estudo quantitativo, observacional, longitudinal (painel de dados) e ecológico (unidade de análise são os municípios).
+*   **Universo:** Municípios do estado do Paraná.
+*   **Período de Análise:** [INSERIR PERÍODO EXATO, ex: 2010-2022].
 
-## 3.2 MÉTODOS DE PROCEDIMENTO
+## 3.2. Variáveis e Fontes de Dados
 
-Para alcançar os objetivos propostos, a pesquisa emprega dois métodos de procedimento principais: o estatístico e o comparativo. O método estatístico:
+As variáveis serão coletadas de fontes secundárias oficiais.
 
-[...] significa reduzir os fenômenos sociológicos, políticos, econômicos etc., a termos quantitativos, manipulando-os estatisticamente, o que permite comprovar as relações dos fenômenos entre si, e obter generalizações sobre sua natureza, ocorrência ou significado (Marconi; Lakatos, 2003, p.108).
+### 3.2.1. Variáveis Dependentes: Indicadores de DRSAI
 
-Neste estudo, o método estatístico é empregado para analisar a dinâmica histórica e as correlações entre indicadores de SA, DRSAI e fatores contextuais nos municípios paranaenses, utilizando técnicas como análise descritiva, análise exploratória de dados, correlações (Spearman, Kendall e Somers' D) e regressões múltiplas. O método comparativo, por sua vez, é utilizado para a investigação de grupos, classes, fenômenos, fatos ou acontecimentos em geral, que se assemelham ou se diferenciam, por meio de comparação, no presente, passado ou entre presentes e passados (Marconi; Lakatos, 2003).
-Neste estudo, o método comparativo é aplicado para examinar as diferenças e semelhanças entre os municípios paranaenses em relação aos indicadores de SA, DRSAI e fatores contextuais, buscando identificar padrões, regularidades e exceções. O método comparativo também é empregado para comparar os resultados obtidos no contexto paranaense com os achados da literatura científica em outros contextos, buscando generalizações e particularidades.
+As Doenças Relacionadas ao Saneamento Ambiental Inadequado (DRSAI) serão mensuradas utilizando dados do Sistema de Informações Hospitalares (SIH/SUS) e do Sistema de Informações sobre Mortalidade (SIM), ambos do DATASUS.
 
-## 3.3 TÉCNICAS DE PESQUISA
+*   **Indicadores Específicos:**
+    *   [LISTAR INDICADOR 1: Ex: Taxa de internação por Doenças Infecciosas e Parasitárias (Capítulo I - CID-10 A00-B99) por 100.000 hab.]
+        *   *Fonte:* SIH/DATASUS
+        *   *CID-10 Códigos:* [A00-B99 ou códigos específicos relevantes]
+        *   *Métrica:* (Número de internações / População residente) * 100.000
+    *   [LISTAR INDICADOR 2: Ex: Taxa de mortalidade por Doenças Infecciosas Intestinais (CID-10 A00-A09) por 100.000 hab.]
+        *   *Fonte:* SIM/DATASUS
+        *   *CID-10 Códigos:* [A00-A09 ou códigos específicos]
+        *   *Métrica:* (Número de óbitos / População residente) * 100.000
+    *   [ADICIONAR OUTROS INDICADORES DRSAI RELEVANTES COM DETALHES]
 
-A pesquisa utiliza duas técnicas principais de coleta e análise de dados: a pesquisa bibliográfica e a pesquisa documental. A pesquisa bibliográfica, abrangendo a leitura, análise e interpretação de livros, periódicos, textos legais, mapas, fotos, manuscritos, entre outros, é utilizada para construir o referencial teórico da tese, revisando a literatura científica sobre SA, DRSAI, políticas públicas, teoria da complexidade, inferência causal e outros temas relevantes (Marconi; Lakatos, 2003).
-A pesquisa bibliográfica também é utilizada para contextualizar o problema de pesquisa, identificar lacunas no conhecimento e formular as hipóteses. A pesquisa documental, por sua vez, vale-se de materiais que não receberam ainda um tratamento analítico, ou que podem ser reelaborados de acordo com os objetos da pesquisa (Marconi; Lakatos, 2003).
-Neste estudo, a pesquisa documental é utilizada para coletar dados secundários sobre SA, DRSAI e fatores contextuais nos municípios paranaenses, a partir de fontes como o SNIS, o DATASUS, o Instituto Paranaense de Desenvolvimento Econômico e Social (IPARDES), Instituto Nacional de Meteorologia (INMET), o Instituto Brasileiro de Geografia e Estatística (IBGE) e outras fontes de dados relevantes.
+### 3.2.2. Variáveis Independentes Principais: Indicadores de Saneamento Básico (SA)
 
-## 3.4 UNIVERSO E AMOSTRA
+Os indicadores de saneamento básico serão obtidos principalmente do Sistema Nacional de Informações sobre Saneamento (SNIS).
 
-O universo da pesquisa é composto pelos 399 municípios do estado do Paraná, abrangendo o período de 2008 a 2022. A escolha desse período se justifica pela disponibilidade de dados consistentes e comparáveis nas fontes utilizadas, por ser um período que abrange exatamente dois anos antes do início da década e termina dois anos depois, bem como pela relevância do período para a análise das políticas públicas de saneamento no estado. A pesquisa adota uma abordagem censitária, incluindo todos os municípios que apresentam dados disponíveis nas bases de dados consultadas. Não há, portanto, um processo de amostragem tradicional, uma vez que se busca analisar a totalidade do universo.
-Essa abordagem, embora exija o tratamento de um grande volume de dados, permite uma análise mais completa e precisa da realidade paranaense, evitando vieses de seleção e garantindo a representatividade dos resultados. A pesquisa trabalhará com os indicadores disponíveis para cada um dos seguintes grupos de variáveis: indicadores de SA, indicadores de DRSAI e indicadores de contexto. O detalhamento das variáveis específicas usadas em cada artigo será feito na seção de procedimentos metodológicos dos próprios artigos.
+*   **Indicadores Específicos:**
+    *   [LISTAR INDICADOR SA 1: Ex: Índice de Atendimento Total de Água (%)]
+        *   *Fonte:* SNIS - Água e Esgotos
+        *   *Código SNIS (se aplicável):* [Ex: AG001]
+        *   *Fórmula/Descrição:* População total atendida com abastecimento de água / População total do município
+    *   [LISTAR INDICADOR SA 2: Ex: Índice de Coleta de Esgoto (%)]
+        *   *Fonte:* SNIS - Água e Esgotos
+        *   *Código SNIS (se aplicável):* [Ex: ES001]
+        *   *Fórmula/Descrição:* População atendida com coleta de esgoto / População total do município
+    *   [LISTAR INDICADOR SA 3: Ex: Índice de Tratamento de Esgoto (%)]
+        *   *Fonte:* SNIS - Água e Esgotos
+        *   *Código SNIS (se aplicável):* [Ex: ES005]
+        *   *Fórmula/Descrição:* Volume de esgoto tratado / Volume de esgoto coletado
+    *   [ADICIONAR OUTROS INDICADORES SA RELEVANTES COM DETALHES]
 
-## 3.5 ESTRUTURA DO TRABALHO E ESCADA DA CAUSALIDADE
+### 3.2.3. Variáveis de Controle: Fatores Contextuais
 
-A tese é estruturada em artigos científicos, cada um abordando um aspecto específico do problema de pesquisa e contribuindo para a construção de uma compreensão mais completa e integrada. Essa estrutura, além de facilitar a divulgação dos resultados em periódicos científicos, permite uma progressão lógica na análise, escalando os degraus da causalidade propostos por Pearl e Mackenzie (2018).
-O primeiro e o segundo artigos se concentram no primeiro degrau da causalidade, o da Associação. Nesses artigos, são analisadas as correlações entre indicadores de SA, DRSAI e fatores contextuais nos municípios paranaenses, utilizando técnicas estatísticas descritivas e exploratórias, bem como correlações ordinais (Spearman, Kendall e Somers' D) e regressões múltiplas. O objetivo é identificar padrões, regularidades e exceções na relação entre SA e DRSAI, bem como a influência de outros fatores.
-O terceiro artigo avança para o segundo e terceiro degraus da causalidade, o da Intervenção e o dos Contrafactuais, respectivamente. Neste artigo, são empregadas técnicas de inferência causal para dados observacionais, como o matching de municípios por suas características contextuais, o uso de variáveis instrumentais (como o valor dos investimentos em SA) e uma adaptação da técnica de diferença em diferenças.
-O objetivo é estimar os efeitos causais das melhorias no SA sobre a redução da incidência de DRSAI, controlando o efeito de outros fatores e considerando cenários contrafactuais. Essa progressão na análise, escalando os degraus da causalidade, permite uma compreensão mais profunda e rigorosa das relações entre SA, DRSAI e contexto nos municípios paranaenses, indo além das meras associações e buscando identificar relações causais robustas e consistentes.
-Os resultados obtidos em cada artigo se complementam e contribuem para a construção de um quadro mais completo e nuançado do problema de pesquisa, subsidiando a formulação de políticas públicas mais eficazes e direcionadas.
+Serão incluídos fatores contextuais socioeconômicos, demográficos e ambientais/climáticos para controlar por potenciais variáveis de confusão.
+
+*   **Fatores Socioeconômicos e Demográficos:**
+    *   [LISTAR FATOR 1: Ex: Produto Interno Bruto (PIB) per capita]
+        *   *Fonte:* IBGE - Contas Regionais
+        *   *Unidade:* R$ (Reais)
+        *   *Frequência:* Anual
+    *   [LISTAR FATOR 2: Ex: Taxa de Urbanização (%)]
+        *   *Fonte:* IBGE - Censo Demográfico / Estimativas Populacionais
+        *   *Unidade:* Percentual (%)
+        *   *Frequência:* Decenal (Censo) / Anual (Estimativas)
+    *   [LISTAR FATOR 3: Ex: Densidade Populacional]
+        *   *Fonte:* IBGE - Estimativas Populacionais / Área Territorial
+        *   *Unidade:* Habitantes / km²
+        *   *Frequência:* Anual
+    *   [LISTAR FATOR 4: Ex: Índice de Desenvolvimento Humano Municipal (IDHM)]
+        *   *Fonte:* PNUD / Atlas do Desenvolvimento Humano no Brasil
+        *   *Unidade:* Índice (0 a 1)
+        *   *Frequência:* Decenal (geralmente)
+    *   [ADICIONAR OUTROS FATORES SOCIOECONÔMICOS/DEMOGRÁFICOS RELEVANTES COM DETALHES]
+
+*   **Fatores Ambientais/Climáticos:**
+    *   [LISTAR FATOR 5: Ex: Precipitação Pluviométrica Média Anual]
+        *   *Fonte:* INMET / SIMEPAR / Outra fonte climática
+        *   *Unidade:* Milímetros (mm)
+        *   *Frequência:* Anual (ou outra agregação relevante)
+    *   [LISTAR FATOR 6: Ex: Temperatura Média Anual]
+        *   *Fonte:* INMET / SIMEPAR / Outra fonte climática
+        *   *Unidade:* Graus Celsius (°C)
+        *   *Frequência:* Anual (ou outra agregação relevante)
+    *   [ADICIONAR OUTROS FATORES AMBIENTAIS/CLIMÁTICOS RELEVANTES COM DETALHES]
+
+### 3.2.4. Confirmação das Bases de Dados e Períodos
+
+*   **Base de Dados 1:** DATASUS (SIH, SIM)
+    *   *Período:* [CONFIRMAR E INSERIR PERÍODO EXATO DISPONÍVEL E UTILIZADO]
+*   **Base de Dados 2:** SNIS (Água e Esgotos, Resíduos Sólidos - se aplicável)
+    *   *Período:* [CONFIRMAR E INSERIR PERÍODO EXATO DISPONÍVEL E UTILIZADO]
+*   **Base de Dados 3:** IBGE (Censos, Estimativas Populacionais, Contas Regionais, Área Territorial)
+    *   *Período:* [CONFIRMAR E INSERIR PERÍODO EXATO DISPONÍVEL E UTILIZADO]
+*   **Base de Dados 4:** PNUD (Atlas Brasil - IDHM)
+    *   *Período:* [CONFIRMAR E INSERIR PERÍODO EXATO DISPONÍVEL E UTILIZADO]
+*   **Base de Dados 5:** [INMET/SIMEPAR/Outra Fonte Climática]
+    *   *Período:* [CONFIRMAR E INSERIR PERÍODO EXATO DISPONÍVEL E UTILIZADO]
+*   [LISTAR OUTRAS BASES DE DADOS UTILIZADAS]
+
+## 3.3. Plano de Análise dos Dados
+
+A análise seguirá uma abordagem sequencial:
+
+1.  **Coleta e Tratamento dos Dados:**
+    *   Extração dos dados das fontes mencionadas.
+    *   Limpeza e organização dos dados em um painel balanceado (ou não balanceado, justificar) por município e ano.
+    *   Tratamento de dados faltantes ([Descrever método: ex: imputação, exclusão]).
+    *   Cálculo dos indicadores e taxas.
+
+2.  **Análise Descritiva:**
+    *   Cálculo de medidas de tendência central (média, mediana) e dispersão (desvio padrão, mínimo, máximo) para todas as variáveis.
+    *   Análise da distribuição temporal e espacial dos indicadores de SA, DRSAI e fatores contextuais.
+    *   Elaboração de tabelas, gráficos e mapas.
+
+3.  **Análise de Correlação:**
+    *   Cálculo de coeficientes de correlação (ex: Pearson ou Spearman, dependendo da distribuição dos dados) entre os indicadores de SA, DRSAI e fatores contextuais.
+    *   Objetivo: Identificar associações preliminares.
+
+4.  **Modelagem de Regressão:**
+    *   Aplicação de modelos de regressão para dados em painel (ex: Efeitos Fixos, Efeitos Aleatórios, POLS - justificar escolha com base em testes como Hausman).
+    *   Modelo geral: `DRSAI_it = β0 + β1*SA_it + β2*Contexto_it + α_i + ε_it`
+        *   `DRSAI_it`: Indicador de DRSAI para município `i` no ano `t`.
+        *   `SA_it`: Indicador(es) de Saneamento Básico.
+        *   `Contexto_it`: Vetor de variáveis de controle (fatores contextuais).
+        *   `α_i`: Efeito fixo específico do município (captura características invariantes no tempo).
+        *   `ε_it`: Termo de erro.
+    *   Análise da significância estatística e magnitude dos coeficientes (`β1`).
+
+5.  **Análise Causal (Tentativa):**
+    *   Considerando a natureza observacional, explorar métodos para inferência causal mais robusta, se os dados permitirem e for metodologicamente viável.
+    *   **Possíveis Métodos (Detalhar aplicação específica):**
+        *   *Propensity Score Matching (PSM):* [Descrever como seria aplicado, ex: comparar municípios com níveis similares de SA, mas diferentes em outros aspectos]. Requer forte suposição de ignorabilidade.
+        *   *Diferenças-em-Diferenças (DiD):* [Descrever como seria aplicado, ex: se houver uma intervenção clara de saneamento em um subgrupo de municípios]. Requer suposição de tendências paralelas.
+        *   *Variáveis Instrumentais (VI):* [Descrever possível instrumento, ex: políticas exógenas de investimento em saneamento]. Requer instrumento válido (relevante e exógeno).
+    *   *Justificativa:* [Explicar por que um método específico seria (ou não) apropriado para este estudo e quais suas limitações].
+
+## 3.4. Ferramentas Computacionais
+
+A análise de dados será realizada utilizando [Software Estatístico, ex: R com pacotes `plm`, `dplyr`, `MatchIt`; ou Stata; ou Python com `pandas`, `statsmodels`].

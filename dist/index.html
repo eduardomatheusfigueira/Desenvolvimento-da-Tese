@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Visualizador de Conteúdo</title>
-    <link rel="stylesheet" href="style.css">
+    <script type="module" crossorigin src="/assets/index-CjR2R0Z0.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-bOau6_XC.css">
   </head>
   <body>
     <div class="container">
@@ -13,23 +14,11 @@
         <ul id="file-list">
           <!-- Lista de arquivos será preenchida pelo JS -->
         </ul>
-        <button id="kanban-toggle-button">Ver Kanban</button> <!-- Botão Kanban -->
       </nav>
       <main id="main-content">
         <h1 id="content-title">Conteúdo</h1>
         <div id="markdown-content">Selecione um arquivo na barra lateral.</div>
       </main>
     </div>
-
-    <!-- Modal Kanban -->
-    <div id="kanban-modal" class="modal">
-      <div class="modal-content">
-        <span class="close-button">&times;</span>
-        <h2>Quadro Kanban</h2>
-        <div id="kanban-markdown-content">Carregando Kanban...</div>
-      </div>
-    </div>
-
-    <script type="module" src="/main.js"></script>
   </body>
 </html>
