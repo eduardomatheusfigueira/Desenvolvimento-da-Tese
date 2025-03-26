@@ -1,17 +1,18 @@
 import { marked } from 'marked';
 
 // Lista de arquivos Markdown conhecidos, na ordem especificada
+// Caminhos atualizados para refletir a nova pasta 'content'
 const markdownFiles = [
-  { name: 'Checklist Revisão', path: '/checklist.md' },
-  { name: '00 Resumo', path: '/thesis_content/01_resumo.md' },
-  { name: '01 Introdução', path: '/thesis_content/02_introducao.md' },
-  { name: '02 Referencial Teórico', path: '/thesis_content/03_referencial_teorico.md' },
-  { name: '03 Procedimentos Metodológicos', path: '/thesis_content/04_procedimentos_metodologicos.md' },
-  { name: '04 Desenvolvimento', path: '/thesis_content/05_desenvolvimento.md' },
-  { name: '05 Cronograma', path: '/thesis_content/07_cronograma.md' },
-  { name: '06 Sumário Provisório', path: '/thesis_content/08_sumario_provisorio.md' },
-  { name: '07 Resultados Preliminares', path: '/thesis_content/06_resultados_preliminares.md' },
-  { name: '08 Referências', path: '/thesis_content/09_referencias.md' } // Adicionado Referências
+  { name: 'Checklist Revisão', path: '/content/checklist.md' },
+  { name: '00 Resumo', path: '/content/thesis_content/01_resumo.md' },
+  { name: '01 Introdução', path: '/content/thesis_content/02_introducao.md' },
+  { name: '02 Referencial Teórico', path: '/content/thesis_content/03_referencial_teorico.md' },
+  { name: '03 Procedimentos Metodológicos', path: '/content/thesis_content/04_procedimentos_metodologicos.md' },
+  { name: '04 Desenvolvimento', path: '/content/thesis_content/05_desenvolvimento.md' },
+  { name: '05 Cronograma', path: '/content/thesis_content/07_cronograma.md' },
+  { name: '06 Sumário Provisório', path: '/content/thesis_content/08_sumario_provisorio.md' },
+  { name: '07 Resultados Preliminares', path: '/content/thesis_content/06_resultados_preliminares.md' },
+  { name: '08 Referências', path: '/content/thesis_content/09_referencias.md' }
 ];
 
 const contentDiv = document.getElementById('markdown-content');
@@ -91,12 +92,13 @@ function updateActiveLink() {
 function initialize() {
   populateFileList();
   // Carrega o checklist por padrão ao iniciar
-  const checklistFile = markdownFiles.find(f => f.path === '/checklist.md');
+  const checklistFile = markdownFiles.find(f => f.path === '/content/checklist.md'); // Caminho atualizado
   if (checklistFile) {
     loadMarkdown(checklistFile.path, checklistFile.name);
   } else if (markdownFiles.length > 0) {
     // Se o checklist não estiver na lista, carrega o primeiro arquivo da lista (Resumo)
-    loadMarkdown(markdownFiles[1].path, markdownFiles[1].name); // Carrega o item 1 (índice 1) que é o Resumo
+    // Ajuste para carregar o primeiro item real da lista de conteúdo da tese (índice 1)
+    loadMarkdown(markdownFiles[1].path, markdownFiles[1].name);
   } else {
     contentDiv.innerHTML = 'Nenhum arquivo Markdown encontrado para exibir.';
     contentTitleH1.textContent = 'Nenhum Arquivo';
